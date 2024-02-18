@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59507CBA-10FF-14A2-23C7-6EFCB5577C4B" name="EMPLEADO">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:27:48 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="documento" id="50804229-2D8F-5ED6-9AFF-B86C2290EA1B">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:00 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7AFEE63A-0F5E-7267-C40F-BFE85CD81E81">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:30:46 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="1678D635-B7CE-2FC7-F4E4-E505CD78E72F">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:30:58 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="EFCCDAC8-3766-9A13-54E5-68B9262706F1">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:31:04 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2E8BFEA-3D07-2B85-DAD2-2C83166BC890" name="EMPLEADO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:04 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50804229-2D8F-5ED6-9AFF-B86C2290EA1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
