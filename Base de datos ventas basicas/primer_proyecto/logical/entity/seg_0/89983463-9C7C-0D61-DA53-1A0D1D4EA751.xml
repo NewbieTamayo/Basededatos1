@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89983463-9C7C-0D61-DA53-1A0D1D4EA751" name="VENTA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:12 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C0814AE9-ABD3-B93D-AF50-1FA923CF99DA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:18 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="1394D583-A7A2-A276-408D-2270B46EDB67">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:28 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="impuesto" id="93A117CC-CCA4-2D0C-D23F-9B3D4490A9DE">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:38 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="C6E8A831-6EFC-455D-2617-57CD180A8611">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:45 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento" id="2295E57E-0D80-8BD1-2B07-AD094A1426F2">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:33:03 UTC</createdTime>
+<generatorID>C3E22BFA-A7A9-2A60-D883-33C8FE6C357F</generatorID>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<referedAttribute>87D2D880-AC2A-1DFF-9BA2-8426484792B3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento1" id="5B7F1C9D-6C72-F777-2D6E-A5B3949221BC">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:33:40 UTC</createdTime>
+<generatorID>143E07D6-7C6B-C0BC-56E3-065CA8459CCF</generatorID>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<referedAttribute>50804229-2D8F-5ED6-9AFF-B86C2290EA1B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA73044B-CBC9-C54C-5E64-70944801B73C" name="VENTA PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-16 20:28:23 UTC</createdTime>
+<ownerDesignName>primer_proyecto</ownerDesignName>
+<engineerTo>
+<item key="3F824889-4A07-7295-FB9B-8322BCC907DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0814AE9-ABD3-B93D-AF50-1FA923CF99DA</attributeRef>
+<attributeRef>2295E57E-0D80-8BD1-2B07-AD094A1426F2</attributeRef>
+<attributeRef>5B7F1C9D-6C72-F777-2D6E-A5B3949221BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
