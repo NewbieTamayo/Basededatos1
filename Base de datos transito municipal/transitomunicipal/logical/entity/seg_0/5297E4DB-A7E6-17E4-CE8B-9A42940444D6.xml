@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5297E4DB-A7E6-17E4-CE8B-9A42940444D6" name="ACTA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:40:12 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="44B326FB-7F89-200C-5EB1-426A6742E627">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:40:15 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_acta" id="4960A23C-9F7F-6FA8-8868-0CA5C1565F98">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:40:17 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_acta" id="794FCCF5-499D-52CC-05C4-A78D0319ADA7">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:40:24 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripción" id="F70987A9-4A9C-80D5-CF95-D76EADDD425F">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:40:27 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_audiencia" id="97B437E3-F365-4214-2C48-0621D20D046D">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:53:57 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_audiciencia" id="70090FB6-D188-FD98-32F0-B4B43FB2A89E">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:54:09 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificación" id="9FCA01C8-BC2A-F1BA-EF8E-1DB873524EA4">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:53:16 UTC</createdTime>
+<generatorID>27BAE470-6866-E115-05F7-6556C139F026</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>9E135369-8641-A7DF-8882-70BD1DCEE91C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="F5ACAE99-91F7-C8DC-F4F8-0F9EC03AE9DC">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:06:22 UTC</createdTime>
+<generatorID>27BAE470-6866-E115-05F7-6556C139F026</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>EB32943C-823A-9C37-FCCA-DF8D1C7F3F93</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="52C22E57-4602-CA30-35F3-C620F2632406">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:07:04 UTC</createdTime>
+<generatorID>27BAE470-6866-E115-05F7-6556C139F026</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>C2060F02-712E-37FB-E520-801035045084</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="BD3CA670-1795-0F76-2E22-61CCB5B4D223">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:07:04 UTC</createdTime>
+<generatorID>27BAE470-6866-E115-05F7-6556C139F026</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>9C202C87-5B7A-B335-2E48-5FE00F97BBEC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="06C9DDDE-5F28-1509-10F0-C13F8F8526BE">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:08:36 UTC</createdTime>
+<generatorID>731EFB80-F77C-729E-7A90-EED4BB16AAB3</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>28133813-A12D-13BC-A1D6-80358BF1EC7A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9178BBD9-D345-92C1-A348-41FA51E9586F" name="ACTA PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:40:19 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44B326FB-7F89-200C-5EB1-426A6742E627</attributeRef>
+<attributeRef>9FCA01C8-BC2A-F1BA-EF8E-1DB873524EA4</attributeRef>
+<attributeRef>F5ACAE99-91F7-C8DC-F4F8-0F9EC03AE9DC</attributeRef>
+<attributeRef>52C22E57-4602-CA30-35F3-C620F2632406</attributeRef>
+<attributeRef>BD3CA670-1795-0F76-2E22-61CCB5B4D223</attributeRef>
+<attributeRef>06C9DDDE-5F28-1509-10F0-C13F8F8526BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

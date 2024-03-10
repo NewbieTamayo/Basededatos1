@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="30052B30-FB81-8FDB-6393-4CC2FB7BD966">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 18:49:49 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>34EEBC27-E531-DAAC-EB87-55C9A944DCE5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>983BB5BB-761C-CCB3-04BE-BAC2F1611606</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

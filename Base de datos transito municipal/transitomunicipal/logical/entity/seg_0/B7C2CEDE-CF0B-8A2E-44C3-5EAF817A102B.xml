@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7C2CEDE-CF0B-8A2E-44C3-5EAF817A102B" name="ZONAS">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:02:30 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="28133813-A12D-13BC-A1D6-80358BF1EC7A">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:02:35 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripción" id="4A9041D7-0A43-0E96-51CE-96173947F326">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:02:37 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicación" id="581A4B67-63B3-DC91-B54A-3D7719DAFE03">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:02:18 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2E2C034-4D73-D7E3-F2B9-A4DF3F4A6461" name="ZONAS PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:03:34 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28133813-A12D-13BC-A1D6-80358BF1EC7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

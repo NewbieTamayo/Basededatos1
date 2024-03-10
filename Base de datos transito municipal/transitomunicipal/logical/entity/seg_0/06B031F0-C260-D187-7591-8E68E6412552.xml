@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06B031F0-C260-D187-7591-8E68E6412552" name="VEHICULO_OFICIAL">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:40:49 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C9BB268B-BDED-5488-FCBF-84EAEAE53FF9">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:40:56 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oficina_transito" id="1B35D6BE-1056-86B0-A789-35B0C8B62F58">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:41:02 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_vehiculo" id="D9F48DC0-0E56-8F84-9E4B-2AA1BFC495C1">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:41:13 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_poliza" id="742DDF05-72ED-3529-945C-6B6746F09E13">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:41:17 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificación" id="0365E062-24EE-0C88-7B16-B481A5B9EB6E">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:04:09 UTC</createdTime>
+<generatorID>40369BAD-FEA7-43AD-FE98-DA3229D12882</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>9E135369-8641-A7DF-8882-70BD1DCEE91C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="6C1D0F29-74D2-A156-8497-1E53E3C1A9DF">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:04:50 UTC</createdTime>
+<generatorID>03E98948-7760-B225-D012-E5EC2449ED3B</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>5098F5D0-05D1-406F-D26F-AA09FE70FB25</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="CCE4AA3C-DA91-5CC0-6EC7-BAE22137C1A5">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:06:22 UTC</createdTime>
+<generatorID>40369BAD-FEA7-43AD-FE98-DA3229D12882</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>EB32943C-823A-9C37-FCCA-DF8D1C7F3F93</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="DC30696C-10A5-03EC-5DAB-865A9CB485BE">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:07:04 UTC</createdTime>
+<generatorID>40369BAD-FEA7-43AD-FE98-DA3229D12882</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>C2060F02-712E-37FB-E520-801035045084</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="FD3173BE-17E8-A1A5-5081-225C03A2321A">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:07:04 UTC</createdTime>
+<generatorID>40369BAD-FEA7-43AD-FE98-DA3229D12882</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>9C202C87-5B7A-B335-2E48-5FE00F97BBEC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="115CAC79-BDE1-B8CC-C87A-CFBAC6D18352" name="VEHICULO_OFICIAL PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 19:40:59 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9BB268B-BDED-5488-FCBF-84EAEAE53FF9</attributeRef>
+<attributeRef>6C1D0F29-74D2-A156-8497-1E53E3C1A9DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

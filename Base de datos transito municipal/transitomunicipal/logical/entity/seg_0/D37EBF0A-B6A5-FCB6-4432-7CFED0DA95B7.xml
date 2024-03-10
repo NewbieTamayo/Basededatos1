@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D37EBF0A-B6A5-FCB6-4432-7CFED0DA95B7" name="PROGRAMACION">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:05:28 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6B447206-8358-0E1A-B9F7-E692332D2D2C">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:05:33 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="31808672-8092-4DAF-27BA-2A4298DA20AA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:05:36 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="F8600FC2-B3A7-D878-FA71-B36B3F83889B">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:07:04 UTC</createdTime>
+<generatorID>75724FC8-4BB9-EEF9-3DD2-375F32CE9580</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>03407FA4-9DD0-7B94-EF8D-8041F747E73B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="FBAB3FEA-BAEA-ACA0-C568-82E79AAA5814">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:07:04 UTC</createdTime>
+<generatorID>75724FC8-4BB9-EEF9-3DD2-375F32CE9580</generatorID>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<referedAttribute>DF9F244A-E24D-DE04-DF83-16A6A03E40D5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F24705E-262C-2601-2582-4E2635896DBD" name="PROGRAMACION PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-06 20:05:35 UTC</createdTime>
+<ownerDesignName>transitomunicipal</ownerDesignName>
+<engineerTo>
+<item key="00A402EC-1B53-4294-F9C9-C067D67B48ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B447206-8358-0E1A-B9F7-E692332D2D2C</attributeRef>
+<attributeRef>F8600FC2-B3A7-D878-FA71-B36B3F83889B</attributeRef>
+<attributeRef>FBAB3FEA-BAEA-ACA0-C568-82E79AAA5814</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
