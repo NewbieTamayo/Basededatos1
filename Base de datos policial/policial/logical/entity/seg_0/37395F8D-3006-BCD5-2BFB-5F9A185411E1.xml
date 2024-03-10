@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37395F8D-3006-BCD5-2BFB-5F9A185411E1" name="CASO">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:16:55 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="384068B3-1CCC-EA7A-977F-58894A305094">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:17:03 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_caso" id="78174E76-162E-135A-CAD2-D9D7609164B9">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:17:06 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="código" id="10C67E10-E44D-219C-DD20-16B30F5DBBBA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:17:56 UTC</createdTime>
+<generatorID>4CDB2C80-4BA0-6273-3D9F-35A5EC212D02</generatorID>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<referedAttribute>2F788163-F6B2-30F4-F0FD-100893C9BE09</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="número_banda" id="16EA17C6-C458-6AC1-D57F-67064AF56724">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:17:56 UTC</createdTime>
+<generatorID>4CDB2C80-4BA0-6273-3D9F-35A5EC212D02</generatorID>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<referedAttribute>CD7C7A0D-7104-DCD4-8302-25F05925314A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_condena" id="DFB81521-D246-9085-E814-FF6D7CC3018E">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:19:03 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo_cárcel" id="A337350E-40DF-D00A-BEFE-A30C01AC505D">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:19:09 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clave_interna" id="ABD6F3A6-2136-A6EC-0771-777AF9360222">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:21:36 UTC</createdTime>
+<generatorID>0340DF46-625D-71B9-9D0B-2E319DA91C99</generatorID>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<referedAttribute>5FFF3297-38CC-F5DD-6152-E2406C2806B0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="2DF13A90-B3F7-AD0A-D608-7C77BF646534">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:22:59 UTC</createdTime>
+<generatorID>6C540A39-D1DB-1BDE-D30A-D229E9C0F93D</generatorID>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<referedAttribute>3AD58A83-717F-781A-B821-7BD11B8733EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B1EA987-75A8-67D6-A36B-1388AD0C7E9C" name="CASO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 19:17:14 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>384068B3-1CCC-EA7A-977F-58894A305094</attributeRef>
+<attributeRef>10C67E10-E44D-219C-DD20-16B30F5DBBBA</attributeRef>
+<attributeRef>16EA17C6-C458-6AC1-D57F-67064AF56724</attributeRef>
+<attributeRef>ABD6F3A6-2136-A6EC-0771-777AF9360222</attributeRef>
+<attributeRef>2DF13A90-B3F7-AD0A-D608-7C77BF646534</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

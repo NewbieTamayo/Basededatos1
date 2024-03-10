@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4522CC2-C388-2C1A-D4AD-A0546BD70B06" name="SUCURSAL">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 18:37:29 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="código" id="AE2F30F6-42D1-A83C-1BF0-6E640DE44228">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 18:37:43 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="domicilio" id="D571249D-4E5C-E1F1-EB73-59CB15A86D2A">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 18:37:59 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="número_empleados" id="4ED1C76F-90A0-DBD4-B2F7-83B4E6D6B084">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 18:38:10 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="código1" id="2F1742B1-C208-B038-8B44-9CCAD8151947">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 18:38:59 UTC</createdTime>
+<generatorID>15B76C85-1560-7F0E-58F8-86C042388DDE</generatorID>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<referedAttribute>5AAF4584-F52A-BD54-281B-23F3B694AFE7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F106D710-D28C-79C9-F686-6F0CB2986DA0" name="SUCURSAL PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-08 18:37:55 UTC</createdTime>
+<ownerDesignName>policial</ownerDesignName>
+<engineerTo>
+<item key="75E6C3AF-D8C7-AA8D-2CA0-E24A3F37E577" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE2F30F6-42D1-A83C-1BF0-6E640DE44228</attributeRef>
+<attributeRef>2F1742B1-C208-B038-8B44-9CCAD8151947</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
