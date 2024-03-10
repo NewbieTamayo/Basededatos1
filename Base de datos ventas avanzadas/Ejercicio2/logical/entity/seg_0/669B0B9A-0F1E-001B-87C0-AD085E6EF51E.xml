@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="669B0B9A-0F1E-001B-87C0-AD085E6EF51E" name="VENTA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:53:50 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="01105691-DE87-6E6E-0463-3A5810B8A9F0">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:53:56 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="3D06D191-E643-CEB9-E03E-EF9E3A9D9A27">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:53:59 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento" id="C98A6F53-5887-261E-21F6-6CADD2DF8D42">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:54:02 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_final" id="BCF24FB7-D108-1ADD-C11E-33AE776366D0">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:54:09 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="B86941FF-DF72-A199-6580-4354D707DA6F">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 19:03:32 UTC</createdTime>
+<generatorID>5756C506-2C80-B380-4347-2CCA0C70AD21</generatorID>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<referedAttribute>FF7DB97B-BBC1-CAF1-0D0F-95A0C6AD729E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E6E3E6B-8B52-4167-30E9-A1E560D41890" name="VENTA PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:53:59 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01105691-DE87-6E6E-0463-3A5810B8A9F0</attributeRef>
+<attributeRef>B86941FF-DF72-A199-6580-4354D707DA6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

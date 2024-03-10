@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61F5ACED-6EE4-B178-A29B-C1C61E27A28A" name="PRODUCTO">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:52:43 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C0DB1E72-AA1C-9F43-6B59-95F312E61D56">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:52:49 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="947501D2-9860-E7EE-9711-0D45AA97BA14">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:52:52 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_actual" id="B9A1DF5F-5078-0876-4D5D-C9FD28CDB4A2">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:53:02 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="628CDA59-ECF8-22EA-0091-A5B03A1A4A88">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:53:07 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_proveedor" id="F18D35F1-7272-65CB-6D3A-C42539D49C2F">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 20:47:58 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="46EB7846-828C-B097-D004-824F0CFB3048">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 21:00:28 UTC</createdTime>
+<generatorID>105E7A16-BDDC-06CF-FD2F-7C478A51FDE6</generatorID>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<referedAttribute>BA4FA6FA-BDAB-D68A-3512-C5EF64632D0B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="0B3D873D-65D4-6EB6-C79E-6C3C75A6FF0D">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 21:00:28 UTC</createdTime>
+<generatorID>105E7A16-BDDC-06CF-FD2F-7C478A51FDE6</generatorID>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<referedAttribute>1406B745-D7F9-2705-E1BB-CB61C96E3685</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="E95CE33E-2A72-D3B5-F865-B3AD58E5BD31">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 21:00:28 UTC</createdTime>
+<generatorID>105E7A16-BDDC-06CF-FD2F-7C478A51FDE6</generatorID>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<referedAttribute>59CF0A1B-A7EA-57E9-61A4-785C6F51067F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A502750-C4D7-F6B9-16F5-1247F3BC5474" name="PRODUCTO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:52:51 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0DB1E72-AA1C-9F43-6B59-95F312E61D56</attributeRef>
+<attributeRef>46EB7846-828C-B097-D004-824F0CFB3048</attributeRef>
+<attributeRef>0B3D873D-65D4-6EB6-C79E-6C3C75A6FF0D</attributeRef>
+<attributeRef>E95CE33E-2A72-D3B5-F865-B3AD58E5BD31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

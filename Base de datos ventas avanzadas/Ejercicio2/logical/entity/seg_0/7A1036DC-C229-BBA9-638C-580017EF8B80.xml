@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A1036DC-C229-BBA9-638C-580017EF8B80" name="NÚMERO">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:47:27 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DE9665C4-4EF2-0237-222C-ECF1861C7D18">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:47:39 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="teléfono" id="63E57182-310F-8752-E80B-B88510C64F92">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:47:44 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="ADF030FD-9EF6-F1FC-2597-7C33CAE85D30">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:49:59 UTC</createdTime>
+<generatorID>0B240403-09BB-1DF0-37CD-91F94EF75712</generatorID>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<referedAttribute>FF7DB97B-BBC1-CAF1-0D0F-95A0C6AD729E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut1" id="AA0A5E7E-2667-3186-95FE-A1FD54365765">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 20:56:10 UTC</createdTime>
+<generatorID>CA6635B0-6A89-4530-16DB-6C52BEE40B95</generatorID>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<referedAttribute>CB4DCDED-13A5-095F-1572-8E04F55B8528</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="243713F8-E387-11BD-6F63-C4EA5933F2B6" name="TELEFONO_CONTACTO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-21 18:47:41 UTC</createdTime>
+<ownerDesignName>Ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="583D937E-D1BA-FE94-1023-BAB96B8A3581" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE9665C4-4EF2-0237-222C-ECF1861C7D18</attributeRef>
+<attributeRef>ADF030FD-9EF6-F1FC-2597-7C33CAE85D30</attributeRef>
+<attributeRef>AA0A5E7E-2667-3186-95FE-A1FD54365765</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
