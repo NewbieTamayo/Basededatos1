@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E552033-EEBE-1FE3-AA46-523DBFC86021" name="EVENTO">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:26:16 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="ABFB1339-821C-43A4-6BE4-FD85D3ADB82F">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:26:24 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="2DC2D511-0352-2D8D-E9A5-91461710DDD7">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:26:28 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duración" id="C8938FFC-EB80-090C-3DD0-C805A0398642">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:26:31 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroparticipantes" id="8509482A-D2EC-109F-F4EA-A2B64FB87018">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:26:39 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerocomisarios" id="30122164-C2FE-FFEE-4B56-A26AAAD7902C">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:26:44 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="E62FF30F-F909-95E8-13DA-6351B68DB824">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:33:33 UTC</createdTime>
+<generatorID>BDC326B3-FB64-0492-971F-5CD5E9CBCF40</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>2B5F197C-1547-D23E-E84F-A780A8B9FF22</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="485ECE00-90ED-277D-CF12-39BC0B59C528">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:33:33 UTC</createdTime>
+<generatorID>BDC326B3-FB64-0492-971F-5CD5E9CBCF40</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>1741A4B2-DE13-8DEE-C3FF-E20FA9E90799</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="57CFF74E-1BCF-51ED-4F26-BC7B7CD4BB72">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:33:33 UTC</createdTime>
+<generatorID>BDC326B3-FB64-0492-971F-5CD5E9CBCF40</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>C4E91E0D-802B-3CC3-BEDB-90DF601E202C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38FD9B7A-98EE-1F6B-CCB0-DC9A34C42E10" name="EVENTO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:29:18 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABFB1339-821C-43A4-6BE4-FD85D3ADB82F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

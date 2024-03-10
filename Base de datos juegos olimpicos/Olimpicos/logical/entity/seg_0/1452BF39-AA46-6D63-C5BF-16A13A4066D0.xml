@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1452BF39-AA46-6D63-C5BF-16A13A4066D0" name="DET_AREADESIGNADA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:19:26 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C1CED4FB-3FA9-ABE1-8C69-5D98EE748A52">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:19:44 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="EF4D3C05-4203-BC8E-FDD8-280D2B60E07F">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:21:51 UTC</createdTime>
+<generatorID>9415D212-34D9-7B52-64A7-D2C325E0A169</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>1F3866DF-507C-4FBF-54A3-27FCD792B390</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="E0DE3A9A-48AD-52D6-C474-941C336D70CE">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:22:03 UTC</createdTime>
+<generatorID>95D5E3B9-C64C-07FA-E38D-6B1E2A45D227</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>D7C76CFE-06E9-4EF0-B036-C2EC6521FC0D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="5C2A3269-7E29-1DFF-8783-7A2EB5217ABC">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:22:53 UTC</createdTime>
+<generatorID>99084D32-FCCB-531A-51CE-68D9F648874E</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>2B5F197C-1547-D23E-E84F-A780A8B9FF22</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="FDA3F858-DE64-4963-342C-AA1D6222931E">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:23:38 UTC</createdTime>
+<generatorID>99084D32-FCCB-531A-51CE-68D9F648874E</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>1741A4B2-DE13-8DEE-C3FF-E20FA9E90799</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id21" id="1B945D5C-D037-7470-1F24-AAEC1A52BA14">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:29:22 UTC</createdTime>
+<generatorID>99084D32-FCCB-531A-51CE-68D9F648874E</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>C4E91E0D-802B-3CC3-BEDB-90DF601E202C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA48A2B6-41EC-6DD0-0F9D-37F2F81F2518" name="DET_AREADESIGNADA PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:19:46 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1CED4FB-3FA9-ABE1-8C69-5D98EE748A52</attributeRef>
+<attributeRef>EF4D3C05-4203-BC8E-FDD8-280D2B60E07F</attributeRef>
+<attributeRef>E0DE3A9A-48AD-52D6-C474-941C336D70CE</attributeRef>
+<attributeRef>5C2A3269-7E29-1DFF-8783-7A2EB5217ABC</attributeRef>
+<attributeRef>FDA3F858-DE64-4963-342C-AA1D6222931E</attributeRef>
+<attributeRef>1B945D5C-D037-7470-1F24-AAEC1A52BA14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

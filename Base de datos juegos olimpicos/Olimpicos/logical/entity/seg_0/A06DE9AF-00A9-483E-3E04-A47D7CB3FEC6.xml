@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A06DE9AF-00A9-483E-3E04-A47D7CB3FEC6" name="COMPLEJO_DEPORTIVO">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:08:38 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2B5F197C-1547-D23E-E84F-A780A8B9FF22">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:08:44 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localización" id="1564103D-05E2-F2D8-689D-3A5B88A9ED06">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:08:46 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jefeorganizaciónindividual" id="16120C72-8841-8086-D12F-7512A90CC360">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:08:51 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="areatotalocupada" id="9E919CD3-9F65-754C-C639-183947401B24">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:15:27 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1741A4B2-DE13-8DEE-C3FF-E20FA9E90799">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:23:38 UTC</createdTime>
+<generatorID>85123A57-948E-123A-E0E2-67D20C14E589</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>A0D8B954-73D2-035E-572E-F149EE07E4A5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="C4E91E0D-802B-3CC3-BEDB-90DF601E202C">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:29:22 UTC</createdTime>
+<generatorID>F6382035-9865-768C-45D6-F7CCE4F3F77D</generatorID>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<referedAttribute>489A11A1-70FC-90BB-F7D3-F55F91CF260D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D18B55BA-7312-0FAD-C226-F34324FA0C37" name="COMPLEJO_DEPORTIVO PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-03-01 19:08:53 UTC</createdTime>
+<ownerDesignName>Olimpicos</ownerDesignName>
+<engineerTo>
+<item key="5E5EEB9A-2776-951C-E8AA-FE9DDADF1F22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B5F197C-1547-D23E-E84F-A780A8B9FF22</attributeRef>
+<attributeRef>1741A4B2-DE13-8DEE-C3FF-E20FA9E90799</attributeRef>
+<attributeRef>C4E91E0D-802B-3CC3-BEDB-90DF601E202C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
