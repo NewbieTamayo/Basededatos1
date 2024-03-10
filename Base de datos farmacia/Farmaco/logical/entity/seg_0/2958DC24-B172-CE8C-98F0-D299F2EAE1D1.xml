@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2958DC24-B172-CE8C-98F0-D299F2EAE1D1" name="CLIENTE">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:25:05 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D732E4E5-9663-4387-DA86-EF0E579CBF4C">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:25:14 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D84FF376-258D-02DA-DF2A-340877815C90">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:25:17 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="D1609F30-FE2C-15D1-C9BB-936F21E26ADB">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:25:19 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="41C838D2-6BF6-FCEF-3333-0D2891C597B2">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:25:27 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2983F5C6-A4C9-5E8B-C074-1E35D0939C3D" name="CLIENTE PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:25:31 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D732E4E5-9663-4387-DA86-EF0E579CBF4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

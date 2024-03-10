@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CD1B132-5A3E-6301-F067-DDBDCC615C77" name="DET_VENTA">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:26:53 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4EECCE00-6CC8-BC80-D802-6DC73644B995">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:27:00 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="9BACCA63-17D7-7ACF-8B2A-09C95674FE14">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:27:07 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="39A6D0A3-3BB7-652D-7579-74B70FBA49DC">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:27:14 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="02C3A57B-C1D0-7079-A427-EBAE575AC5A9">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:27:16 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="código" id="D2550A52-3E86-446A-FA6F-07D248280F92">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:28:42 UTC</createdTime>
+<generatorID>CEAC24E4-1C52-3F20-F354-A48EB751D5BB</generatorID>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<referedAttribute>D9DBD339-381D-7F95-ED47-CF30779614C9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="46C78793-8C15-6271-F350-DD04770DC363">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:30:00 UTC</createdTime>
+<generatorID>F99DECF7-2A19-2841-B10B-622F470B3F8D</generatorID>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<referedAttribute>16576DEB-A1A6-C94C-E945-56EBAE530798</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="077492D1-9124-70DA-D6D3-92FFAFA77B0C">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:30:00 UTC</createdTime>
+<generatorID>F99DECF7-2A19-2841-B10B-622F470B3F8D</generatorID>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<referedAttribute>AE780A39-1DDA-62A0-00C7-8662AE1841C3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="código2" id="DF22D5F8-3156-665E-2BB0-48FDB53BAAF2">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:30:00 UTC</createdTime>
+<generatorID>F99DECF7-2A19-2841-B10B-622F470B3F8D</generatorID>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<referedAttribute>766AB99F-E76C-6F49-E7E7-00D779030F49</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="7D47E4A3-BD24-56DB-B188-6797B7FA5BBC">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:31:39 UTC</createdTime>
+<generatorID>CEAC24E4-1C52-3F20-F354-A48EB751D5BB</generatorID>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<referedAttribute>40D38DCC-78AA-4624-7EDB-BFD9A7ECC12C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF62521E-14D6-8F5E-AA40-F03439FD2BB5" name="DET_VENTA PK">
+<createdBy>carlo</createdBy>
+<createdTime>2024-02-28 18:27:05 UTC</createdTime>
+<ownerDesignName>Farmaco</ownerDesignName>
+<engineerTo>
+<item key="CC2FBFA1-A159-806E-371D-AD54CD4FCF04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EECCE00-6CC8-BC80-D802-6DC73644B995</attributeRef>
+<attributeRef>D2550A52-3E86-446A-FA6F-07D248280F92</attributeRef>
+<attributeRef>7D47E4A3-BD24-56DB-B188-6797B7FA5BBC</attributeRef>
+<attributeRef>46C78793-8C15-6271-F350-DD04770DC363</attributeRef>
+<attributeRef>077492D1-9124-70DA-D6D3-92FFAFA77B0C</attributeRef>
+<attributeRef>DF22D5F8-3156-665E-2BB0-48FDB53BAAF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
